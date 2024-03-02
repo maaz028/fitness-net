@@ -49,7 +49,6 @@ namespace Fitness_management_system.Controllers
             int recSkip = (pageNumber - 1) * pageSize;
 
             IEnumerable<ApplicationUserModel> model = _userManager.Users.OrderByDescending(x => x.CreatedDate).Skip(recSkip).Take(pageSize).ToList();
-            model = model.Where(x => x.Email != "admin@gmail.com");
             int totalCount = _userManager.Users.Count();
             Pagination Pager = new Pagination(pageSize, totalCount);
             int pages = Pager.GeneratePages();
@@ -60,6 +59,7 @@ namespace Fitness_management_system.Controllers
             ViewBag.IsAccountStatusUpdated = isAccountStatusUpdated;
             ViewBag.IsTrainerAssigned = isTrainerAssigned;
             ViewBag.SelectedEntries = pageSize;
+            ViewBag.Partials = recSkip + model.Count();
 
             _logger.LogInformation($"Available members page number: {pageNumber} return {model.Count()} rows at {DateTime.Now.ToLongTimeString()}");
 

@@ -66,7 +66,7 @@
                                 </td>
                                 <td>@eqp.Name</td>
                                 @{
-                                    var description = $"{eqp.Description.Substring(0, 1).ToUpper()}{eqp.Description.Substring(1, eqp.Description.Length > 50 ? 50 : eqp.Description.Length)}...";
+                                    var description = $"{eqp.Description.Substring(0, 1).ToUpper()}{eqp.Description.Substring(1, eqp.Description.Length > 50 ? 50 : eqp.Description.Length - 1)}...";
                                 }
                                 <td>@description</td>
                                 <td>@eqp.CreatedDate</td>
