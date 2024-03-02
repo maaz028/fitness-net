@@ -2688,6 +2688,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\logo.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\members\2b6f7682-4528-4d3f-a2a3-b2124365d050_images.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fitness_management_system</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fitness_management_system</BasePath>
+      <RelativePath>images/members/2b6f7682-4528-4d3f-a2a3-b2124365d050_images.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\members\2b6f7682-4528-4d3f-a2a3-b2124365d050_images.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\members\74375623-9b71-48a8-a7a0-a5dba2d4c64b_1331867.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Fitness_management_system</SourceId>
@@ -2719,6 +2735,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\members\7882e3d0-8951-4c0b-ad76-ee29fcc46b1e_1687198469115 (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\members\cb7ad6cf-c656-4364-af3e-217a23d2f663_photo-1535713875002-d1d0cf377fde.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fitness_management_system</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fitness_management_system</BasePath>
+      <RelativePath>images/members/cb7ad6cf-c656-4364-af3e-217a23d2f663_photo-1535713875002-d1d0cf377fde.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\members\cb7ad6cf-c656-4364-af3e-217a23d2f663_photo-1535713875002-d1d0cf377fde.avif))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\members\feddc1dd-3ee5-4e0b-84ea-e6add724e654_1687198469115 (1).jpg))">
       <SourceType>Package</SourceType>
@@ -2815,6 +2847,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\trainers\71813765-00d1-4aea-be0f-a9329c03106a_Screenshot 2022-12-16 122802.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\trainers\902fea29-d1c7-4b69-893f-8455e4972a6f_images.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fitness_management_system</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fitness_management_system</BasePath>
+      <RelativePath>images/trainers/902fea29-d1c7-4b69-893f-8455e4972a6f_images.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\trainers\902fea29-d1c7-4b69-893f-8455e4972a6f_images.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\trainers\a921549d-16ef-4a67-8864-353cf6febdd0_1687198469115 (1).jpg))">
       <SourceType>Package</SourceType>
