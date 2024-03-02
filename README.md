@@ -1,4 +1,4 @@
-In Order to make the application runnable follow the steps.
+In Order to make the application run follow the steps.
 
 1- clone the repository
 
