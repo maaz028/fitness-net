@@ -1,0 +1,81 @@
+﻿@model TrainerViewModel
+@{
+    ViewBag.Title = "Admin | Add Trainer";
+    ViewBag.TrainerDetailsActive = "active open";
+    ViewBag.AddTrainerActive = "active";
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    <form asp-controller="Trainer" asp-action="AddTrainer" method="POST" enctype="multipart/form-data">
+    
+        <div class="card mb-4">
+            <h5 class="card-header">Provide Trainer Details</h5>
+
+            <hr class="my-0">
+            <div class="card-body">
+                <div asp-validation-summary="All" class="text-red"></div>
+                <div class="row">
+   
+                <div class="col-md-6">
+                    <div class="row">
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Name" class="form-label"></label>
+                                <input class="form-control" asp-for="Name" placeholder="Enter name" autofocus="">
+                                <span class="text-red" asp-validation-for="Name"></span>
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input class="form-control" asp-for="Email" placeholder="Enter email" autofocus="">
+                                <span class="text-red" asp-validation-for="Email"></span>
+
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Gender" class="form-label"></label>
+                                <select class="form-control" asp-for="Gender" asp-items="@Html.GetEnumSelectList<GenderEnm>()" autofocus=""></select>
+                                <span class="text-red" asp-validation-for="Gender"></span>
+
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label asp-for="Age" class="form-label"></label>
+                                <input class="form-control" asp-for="Age" placeholder="Enter age" autofocus="">
+                                <span class="text-red" asp-validation-for="Age"></span>
+
+                            </div>
+                            <div class="mt-2">
+                                <button type="submit" class="btn btn-primary me-2">Click To Add</button>
+                            </div>
+                        </div>
+                   
+                    </div>
+                    <div class="col-md-6">
+                        <img width="100%" style="border-radius:10px" src="~/images//trainer-pic.png" />
+                    </div>
+                </div>
+
+            </div>
+            <!-- /Account -->
+        </div>
+    </form>
+</div>
+@if (ViewBag.IsNewTrainerAdded)
+{
+    <div id="toaster" class="bs-toast toast toast-placement-ex m-2 fade bg-success top-0 end-0 show" role="alert" aria-live="assertive" data-bs-delay="2000" aria-atomic="true">
+        <div class="toast-header">
+            <i class="bx bx-bell me-2"></i>
+            <div class="me-auto fw-semibold">Alert</div>
+            <small>Now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            New Trainer added Successfully !
+        </div>
+    </div>
+}
+
+@section scripts{
+    <script>
+        setTimeout(()=>
+        {
+            document.getElementById("toaster").style.display = "none";
+        },4000)
+    </script>
+}

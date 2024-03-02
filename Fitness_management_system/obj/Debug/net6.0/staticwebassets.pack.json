@@ -1,0 +1,1165 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\css\\LandingStyle.css",
+      "PackagePath": "staticwebassets\\css\\LandingStyle.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\css\\core.css",
+      "PackagePath": "staticwebassets\\dist\\css\\core.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\dist\\css\\theme-default.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\dist\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\dist\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\dist\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\dist\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\dist\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\dist\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\dist\\js\\helpers.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\js\\menu.js",
+      "PackagePath": "staticwebassets\\dist\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\dist\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\dist\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\dist\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\dist\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\dist\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\fonts\\boxicons.scss",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\auth-forgot-password-basic.html",
+      "PackagePath": "staticwebassets\\html\\auth-forgot-password-basic.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\auth-login-basic.html",
+      "PackagePath": "staticwebassets\\html\\auth-login-basic.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\auth-register-basic.html",
+      "PackagePath": "staticwebassets\\html\\auth-register-basic.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\cards-basic.html",
+      "PackagePath": "staticwebassets\\html\\cards-basic.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\extended-ui-perfect-scrollbar.html",
+      "PackagePath": "staticwebassets\\html\\extended-ui-perfect-scrollbar.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\extended-ui-text-divider.html",
+      "PackagePath": "staticwebassets\\html\\extended-ui-text-divider.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\form-layouts-horizontal.html",
+      "PackagePath": "staticwebassets\\html\\form-layouts-horizontal.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\form-layouts-vertical.html",
+      "PackagePath": "staticwebassets\\html\\form-layouts-vertical.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\forms-basic-inputs.html",
+      "PackagePath": "staticwebassets\\html\\forms-basic-inputs.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\forms-input-groups.html",
+      "PackagePath": "staticwebassets\\html\\forms-input-groups.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\icons-boxicons.html",
+      "PackagePath": "staticwebassets\\html\\icons-boxicons.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\index.html",
+      "PackagePath": "staticwebassets\\html\\index.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\layouts-blank.html",
+      "PackagePath": "staticwebassets\\html\\layouts-blank.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\layouts-container.html",
+      "PackagePath": "staticwebassets\\html\\layouts-container.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\layouts-fluid.html",
+      "PackagePath": "staticwebassets\\html\\layouts-fluid.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\layouts-without-menu.html",
+      "PackagePath": "staticwebassets\\html\\layouts-without-menu.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\layouts-without-navbar.html",
+      "PackagePath": "staticwebassets\\html\\layouts-without-navbar.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\pages-account-settings-account.html",
+      "PackagePath": "staticwebassets\\html\\pages-account-settings-account.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\pages-account-settings-connections.html",
+      "PackagePath": "staticwebassets\\html\\pages-account-settings-connections.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\pages-account-settings-notifications.html",
+      "PackagePath": "staticwebassets\\html\\pages-account-settings-notifications.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\pages-misc-error.html",
+      "PackagePath": "staticwebassets\\html\\pages-misc-error.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\pages-misc-under-maintenance.html",
+      "PackagePath": "staticwebassets\\html\\pages-misc-under-maintenance.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\tables-basic.html",
+      "PackagePath": "staticwebassets\\html\\tables-basic.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-accordion.html",
+      "PackagePath": "staticwebassets\\html\\ui-accordion.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-alerts.html",
+      "PackagePath": "staticwebassets\\html\\ui-alerts.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-badges.html",
+      "PackagePath": "staticwebassets\\html\\ui-badges.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-buttons.html",
+      "PackagePath": "staticwebassets\\html\\ui-buttons.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-carousel.html",
+      "PackagePath": "staticwebassets\\html\\ui-carousel.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-collapse.html",
+      "PackagePath": "staticwebassets\\html\\ui-collapse.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-dropdowns.html",
+      "PackagePath": "staticwebassets\\html\\ui-dropdowns.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-footer.html",
+      "PackagePath": "staticwebassets\\html\\ui-footer.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-list-groups.html",
+      "PackagePath": "staticwebassets\\html\\ui-list-groups.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-modals.html",
+      "PackagePath": "staticwebassets\\html\\ui-modals.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-navbar.html",
+      "PackagePath": "staticwebassets\\html\\ui-navbar.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-offcanvas.html",
+      "PackagePath": "staticwebassets\\html\\ui-offcanvas.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-pagination-breadcrumbs.html",
+      "PackagePath": "staticwebassets\\html\\ui-pagination-breadcrumbs.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-progress.html",
+      "PackagePath": "staticwebassets\\html\\ui-progress.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-spinners.html",
+      "PackagePath": "staticwebassets\\html\\ui-spinners.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-tabs-pills.html",
+      "PackagePath": "staticwebassets\\html\\ui-tabs-pills.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-toasts.html",
+      "PackagePath": "staticwebassets\\html\\ui-toasts.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-tooltips-popovers.html",
+      "PackagePath": "staticwebassets\\html\\ui-tooltips-popovers.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\html\\ui-typography.html",
+      "PackagePath": "staticwebassets\\html\\ui-typography.html"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\1687198469115.jpg",
+      "PackagePath": "staticwebassets\\images\\1687198469115.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\072bb84b-bcb0-45e7-89a0-805d5a4142aa_buge-adjustable-bench-m037.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\072bb84b-bcb0-45e7-89a0-805d5a4142aa_buge-adjustable-bench-m037.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\09c8f952-4b34-436a-b925-021218e6c2e4_hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\09c8f952-4b34-436a-b925-021218e6c2e4_hammer-strength-plate-loaded-seated-dip-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\25e24f9c-1978-47ee-bee3-372593289b61_tricep-press-machine-283x300.png",
+      "PackagePath": "staticwebassets\\images\\equipments\\25e24f9c-1978-47ee-bee3-372593289b61_tricep-press-machine-283x300.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\28c1b2c5-e94f-4d46-a55f-fcb949124469_buge-biceps-curl.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\28c1b2c5-e94f-4d46-a55f-fcb949124469_buge-biceps-curl.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\5860a6df-9fac-42e3-bf68-c8e9cbb4eaba_olympic-incline-bench-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\5860a6df-9fac-42e3-bf68-c8e9cbb4eaba_olympic-incline-bench-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\594915af-45ac-4696-875a-0ffc0a34700d_hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\594915af-45ac-4696-875a-0ffc0a34700d_hammer-strength-plate-loaded-seated-dip-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\5c6f5c90-9aed-4cab-a868-4437cee12d90_tricep-press-machine-283x300.png",
+      "PackagePath": "staticwebassets\\images\\equipments\\5c6f5c90-9aed-4cab-a868-4437cee12d90_tricep-press-machine-283x300.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\7408c41c-2bf8-439d-b549-782b74a99f8b_life-fitness-signature-pecfly-2-e1559941242112.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\7408c41c-2bf8-439d-b549-782b74a99f8b_life-fitness-signature-pecfly-2-e1559941242112.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\86e98df1-d3fa-43d5-9d40-d65b20dff58e_hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\86e98df1-d3fa-43d5-9d40-d65b20dff58e_hammer-strength-plate-loaded-seated-dip-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\b626cfbf-c28a-40f9-8ef4-413884df6ba8_cybex-vr2-arm-extension-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\b626cfbf-c28a-40f9-8ef4-413884df6ba8_cybex-vr2-arm-extension-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\bc7bbe91-05f9-46d8-98cc-95b43690792a_tricep-press-machine-283x300.png",
+      "PackagePath": "staticwebassets\\images\\equipments\\bc7bbe91-05f9-46d8-98cc-95b43690792a_tricep-press-machine-283x300.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\bf30bf12-290e-49d1-ba65-1acd9d973ced_magnum-tricepextension-2.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\bf30bf12-290e-49d1-ba65-1acd9d973ced_magnum-tricepextension-2.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\c1bdbecf-7af8-42a0-aeaa-318f2252a503_hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\c1bdbecf-7af8-42a0-aeaa-318f2252a503_hammer-strength-plate-loaded-seated-dip-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\c3133e6c-b90b-45ed-a31c-aa965df17f0d_cybex-olympic-incline-bench-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\c3133e6c-b90b-45ed-a31c-aa965df17f0d_cybex-olympic-incline-bench-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\cdd52caf-95c8-48e5-a447-bb6607d02676_tricep-press-machine-283x300.png",
+      "PackagePath": "staticwebassets\\images\\equipments\\cdd52caf-95c8-48e5-a447-bb6607d02676_tricep-press-machine-283x300.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\df61ed3c-f517-4a9f-afc5-7e2b7ff811b4_hammer-strength-olympic-decline-bench-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\df61ed3c-f517-4a9f-afc5-7e2b7ff811b4_hammer-strength-olympic-decline-bench-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\f793e704-d001-4f95-9de8-1ab6d1923cde_hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\f793e704-d001-4f95-9de8-1ab6d1923cde_hammer-strength-plate-loaded-seated-dip-600x600.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\equipments\\fadf5fe9-46ee-4c69-9451-1f3ac4b51ed5_life-fitness-signature-pecfly-2-e1559941242112.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\fadf5fe9-46ee-4c69-9451-1f3ac4b51ed5_life-fitness-signature-pecfly-2-e1559941242112.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\members\\74375623-9b71-48a8-a7a0-a5dba2d4c64b_1331867.jpeg",
+      "PackagePath": "staticwebassets\\images\\members\\74375623-9b71-48a8-a7a0-a5dba2d4c64b_1331867.jpeg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\members\\7882e3d0-8951-4c0b-ad76-ee29fcc46b1e_1687198469115 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\members\\7882e3d0-8951-4c0b-ad76-ee29fcc46b1e_1687198469115 (1).jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\members\\feddc1dd-3ee5-4e0b-84ea-e6add724e654_1687198469115 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\members\\feddc1dd-3ee5-4e0b-84ea-e6add724e654_1687198469115 (1).jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\trainer-pic.png",
+      "PackagePath": "staticwebassets\\images\\trainer-pic.png"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\trainers\\2b1fa638-7da7-4e9e-a3a6-46cedfd705b3_1331867.jpeg",
+      "PackagePath": "staticwebassets\\images\\trainers\\2b1fa638-7da7-4e9e-a3a6-46cedfd705b3_1331867.jpeg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\trainers\\44fa5eb7-9cb1-4686-ba0b-91f2d52a0180_Screenshot 2022-12-16 122802.jpg",
+      "PackagePath": "staticwebassets\\images\\trainers\\44fa5eb7-9cb1-4686-ba0b-91f2d52a0180_Screenshot 2022-12-16 122802.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\trainers\\564a3351-a040-46bf-b7bb-02e4e9230815_1687198469115 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\trainers\\564a3351-a040-46bf-b7bb-02e4e9230815_1687198469115 (1).jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\trainers\\71813765-00d1-4aea-be0f-a9329c03106a_Screenshot 2022-12-16 122802.jpg",
+      "PackagePath": "staticwebassets\\images\\trainers\\71813765-00d1-4aea-be0f-a9329c03106a_Screenshot 2022-12-16 122802.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\trainers\\a921549d-16ef-4a67-8864-353cf6febdd0_1687198469115 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\trainers\\a921549d-16ef-4a67-8864-353cf6febdd0_1687198469115 (1).jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\images\\trainers\\b5502f04-f335-4a1c-a620-d72189939a05_1687198469115 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\trainers\\b5502f04-f335-4a1c-a620-d72189939a05_1687198469115 (1).jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\js\\helpers.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\js\\menu.js",
+      "PackagePath": "staticwebassets\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\lib\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\scss\\_colors.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\_components.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\scss\\core.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\tasks\\build.js"
+    },
+    {
+      "Id": "E:\\Projects\\Fitness-Management-System\\fitness_management_system\\wwwroot\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\tasks\\prod.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Fitness_management_system.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Fitness_management_system.props",
+      "PackagePath": "build\\Fitness_management_system.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Fitness_management_system.props",
+      "PackagePath": "buildMultiTargeting\\Fitness_management_system.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Fitness_management_system.props",
+      "PackagePath": "buildTransitive\\Fitness_management_system.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

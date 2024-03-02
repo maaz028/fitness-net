@@ -1,0 +1,94 @@
+﻿@model RegisterViewModel
+
+@{
+    ViewBag.Title = "Account | Register";
+    var register = Model;
+    Layout = "_EmptyLayout";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="container loginBox">
+    <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+            <!-- Register -->
+            <div class="card">
+                <div class="card-body">
+                    <!-- Logo -->
+                    <div class="app-brand justify-content-center">
+                        <h4>Register</h4>
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
+                    <!-- /Logo -->
+
+                    <p class="mb-4">Please fill all the required field to get registered! Thanks.</p>
+
+                    <form asp-controller="Account" asp-action="Register" class="mb-3" method="POST">
+                        <div asp-validation-summary="All" class="text-red"></div>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Name"></label>
+                            <input type="text" class="form-control" asp-for="Name" placeholder="Enter your Full name"
+                                autofocus />
+                            <span asp-validation-for="Name" class="text-red"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Email"></label>
+                            <input type="text" class="form-control" asp-for="Email"
+                                placeholder="Enter your email or username" autofocus />
+                            <span asp-validation-for="Email" class="text-red"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Gender"></label>
+                            <select type="text" class="form-control" asp-for="Gender" autofocus
+                                asp-items="@Html.GetEnumSelectList<GenderEnm>()">
+                                <option value="">Select Gender</option>
+                            </select>
+                            <span asp-validation-for="Gender" class="text-red"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="Password"></label>
+                            @Html.EditorFor(m => m.Password, new
+                                {
+                                    htmlattributes = new
+                                    {
+                                        @class = "form-control",
+                                        placeholder = "Select a Password"
+                                    }
+                                })
+                            <span asp-validation-for="Password" class="text-red"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="PasswordConfirmation"></label>
+                            @Html.EditorFor(m => m.PasswordConfirmation, new
+                                {
+                                    htmlattributes = new
+                                    {
+                                        @class =
+                                     "form-control",
+                                        @placeholder = "Confirm your Password"
+                                    }
+                                })
+                            <span asp-validation-for="PasswordConfirmation" class="text-red"></span>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-primary d-grid w-100" type="submit">Register</button>
+                        </div>
+                    </form>
+
+                    <p class="text-center">
+                        <span>Already have an account?</span>
+                        <a asp-asp-controller="Account" asp-action="Login">
+                            <span>Login</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <!-- /Register -->
+        </div>
+    </div>
+</div>

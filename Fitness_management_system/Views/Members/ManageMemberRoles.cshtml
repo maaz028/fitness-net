@@ -1,0 +1,37 @@
+﻿@model List<ManageMemberRolesViewModel>
+@{
+    ViewBag.Title = "Admin | Manage Member role";
+    ViewBag.MemberDetailsActive = "active open";
+    ViewBag.AvailableMembersActive = "active";
+
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+<div class="row">
+    <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+                <form asp-controller="Members" asp-action="ManageMemberRoles" method="post">
+            <div class="card-body">
+                <p class="card-title">Available Roles</p>
+
+         @for(int i =0; i<Model.Count();i++)
+                    {
+                      <div>
+                            <input hidden asp-for="@Model[i].MemberId" />
+                            <input hidden asp-for="@Model[i].RoleID" />
+                            <input type="checkbox" asp-for="@Model[i].IsSelected" id="@Model[i].RoleName"/> &nbsp;&nbsp;
+                            <label class="form-label" for="@Model[i].RoleName">@Model[i].RoleName</label>
+                          </div>
+                    }
+
+                    <h5 class="card-text"></h5>
+      
+               
+                <button type="submit"   class="btn btn-primary">Update</button>
+            </div>
+                </form>
+        </div>
+    </div>
+
+</div>
+</div>

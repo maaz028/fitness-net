@@ -1,0 +1,9 @@
+<script>
+        var entries = document.getElementById("entries");
+        entries.value = @ViewBag.SelectedEntries;
+        
+        function changeEntries()
+        {
+            document.getElementById("submitEntries").submit();
+        }
+</script>

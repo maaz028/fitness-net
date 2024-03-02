@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Fitness_management_system.props" />
+</Project>

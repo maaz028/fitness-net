@@ -1,0 +1,85 @@
+﻿@model MemberViewModel;
+@{
+    ViewBag.Title = "Admin | Available Members";
+    ViewBag.MemberDetailsActive = "active open";
+    ViewBag.AvailableMembersActive = "active";
+}
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="card mb-4">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Member Details</h5>
+            <small class="text-muted float-end">Default label</small>
+        </div>
+        <div class="card-body">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    @if (!string.IsNullOrEmpty(Model.PhotoPath))
+                    {
+                        <img class="card-img card-img-left" src="~/images/members/@Model.PhotoPath" alt="Card image">
+                    }
+                    else
+                    {
+                        <img class="card-img card-img-left" src="~/assets/img/avatars/5.png" alt="Card image">
+                    }
+
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.MemberName</h5>
+                        <p class="card-text">
+                            <b>Email:</b>&nbsp; @Model.MemberEmail <br /> <br />
+                            <b>Gender:</b>&nbsp; @Model.MemberGender <br /> <br />
+                            <b>Account Status:</b>&nbsp;
+                            @if (Model.AvailabilityStatus == AvailabilityStatusEnum.Active)
+                            {
+                                <span class="badge bg-label-success me-1">@Model.AvailabilityStatus</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-label-danger me-1">@Model.AvailabilityStatus</span>
+                            } <br /> <br />
+                            <b>Apply Date:</b>&nbsp; @Model.ApplyDate <br /> <br />
+                            <b>Joining Date:</b>&nbsp; @Model.JoiningDate <br /> <br />
+                            <b>Last Updated Date:</b>&nbsp; @Model.LastUpdatedDate <br /> <br />
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <a asp-action="AvailableMembers" style="margin:10px 5px" asp-controller="Members" type="submit" class="btn btn-primary">Back</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p class="card-title">User Roles</p>
+
+                    @if (Model.Roles.Any())
+                    {
+                        @foreach(var role in Model.Roles)
+                        {
+                        <h5 class="card-text">@role.RoleName</h5>                          
+                        }
+                    }
+                    else
+                    {
+                        <h5 class="card-text">No Roles</h5>
+                    }
+                    <a asp-controller="Members" asp-action="ManageMemberRoles" asp-route-MemberID="@Model.MemberID" class="btn btn-primary">Manage Roles</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</div>

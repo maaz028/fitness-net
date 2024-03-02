@@ -1,0 +1,77 @@
+﻿@model LoginViewModel
+@{
+    ViewBag.Title = "Account | Forgot Password";
+    Layout = "_EmptyLayout";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="container loginBox">
+    <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+            <!-- Register -->
+            <div class="card">
+                <div class="card-body">
+                    <!-- Logo -->
+                    <div class="app-brand justify-content-center">
+                        <h4>Sign In</h4>
+                        <br />
+                        <br />
+                        <br />
+
+                    </div>
+                    <!-- /Logo -->
+
+                    <p class="mb-4">Please sign-in to your account and start the adventure</p>
+
+                    <form asp-controller="Account" asp-action="Login" method="POST">
+                        <div class="text-red" asp-validation-summary="All"></div>
+                        <input asp-for="ReturnUrl" value="@ViewBag.ReturnUrl" hidden />
+
+                        <div class="mb-3">
+                            <label asp-for="Username" class="form-label"></label>
+                            <input asp-for="Username" class="form-control" placeholder="Enter your email or username"
+                                autofocus />
+                            <span class="text-red" asp-validation-for="Username"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Password" class="form-label"></label>
+                            @Html.EditorFor(m => m.Password, new
+                                {
+                                    htmlAttributes = new
+                                    {
+                                        @class = "form-control",
+                                        @placeholder = "Enter your Password"
+                                    }
+                                })
+                            <span class="text-red" asp-validation-for="Password"></span>
+                        </div>
+                        <div class="mb-3">
+                            @Html.EditorFor(m => m.RememberMe)
+                            <label asp-for="RememberMe" class="form-label"></label>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <button class="btn btn-primary d-grid w-100" type="submit">Login</button>
+                        </div>
+                    </form>
+
+                    <p class="text-center">
+                        <span>New on our platform?</span>
+                        <a asp-controller="Account" asp-action="Register">
+                            <span>Create an account</span>
+                        </a>
+                    </p>
+                    <div class="mb-3">
+                        <a asp-controller="Account" asp-action="ForgotPassword" class="btn btn-danger d-grid w-100"
+                            type="submit">Forgot Password</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /Register -->
+        </div>
+    </div>
+</div>

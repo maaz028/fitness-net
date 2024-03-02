@@ -1,0 +1,70 @@
+
+    <script>
+        function searchMember(input)
+        {
+            $("#showMemberLink").removeClass("show")
+            $("#memberDrop").html('')
+            if(input != "")
+            {
+                 $.ajax({
+                url: '@Url.Action("SearchMember","Members")',
+                type: "POST",
+                data: {memberName : input},
+                dataType: "json",
+                success: function (result){
+                    var htmlText = '';
+                    if(result.length > 0)
+                    {
+                         for(var item in result)
+                        {
+                            htmlText = htmlText + `<a class="dropdown-item" href="/members/member-details?id=${result[item].id}"><b>${result[item].name}</b> |  ${result[item].userName}</a>`
+                        }
+
+                        $("#showMemberLink").addClass("show")
+                        $("#memberDrop").html(htmlText)
+                    }
+                    else
+                         $("#showMemberLink").removeClass("show")
+                   
+                },
+                error: function(err){}
+            })
+
+            }
+           
+        }
+        function searchTrainer(input)
+        {
+            $("#showTrainerLink").removeClass("show")
+            $("#trainerDrop").html('')
+            if(input != "")
+            {
+                 $.ajax({
+                url: '@Url.Action("SearchTrainer","Trainer")',
+                type: "POST",
+                data: {trainerName : input},
+                dataType: "json",
+                success: function (result){
+                    var htmlText = '';
+
+                    if(result.length > 0)
+                    {
+                         for(var item in result)
+                        {
+                            htmlText = htmlText + `<a class="dropdown-item" href="/trainer/trainer-details?id=${result[item].trainerID}"><b>${result[item].name}</b> |  ${result[item].email}</a>`
+                        }
+
+                        $("#showTrainerLink").addClass("show")
+                        $("#trainerDrop").html(htmlText)
+                    }
+                    else
+                         $("#showTrainerLink").removeClass("show")
+                   
+                },
+                error: function(err){}
+            })
+
+            }
+           
+        }
+    </script>

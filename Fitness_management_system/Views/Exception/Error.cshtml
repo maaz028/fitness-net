@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Request not reached";
+}  
+<div class="container-xxl container-p-y">
+    <div class="container">
+        Our Development Team is Working on the fix
+    </div>
+    <div class="container">
+        Please Contact <strong>kmaaz3542@gmail.com</strong>&nbsp;for more details.
+    </div>
+
+    <div class="container alert alert-danger">
+        @ViewBag.ExceptionPath
+    </div>
+    <div class="container alert alert-danger">
+        @ViewBag.ExceptionDetails
+    </div>
+    <div class="container alert alert-danger">
+        @ViewBag.StackTrace
+    </div>
+</div>

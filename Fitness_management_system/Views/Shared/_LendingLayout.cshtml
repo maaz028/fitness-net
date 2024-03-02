@@ -1,0 +1,59 @@
+﻿@inject SignInManager<ApplicationUserModel> _signInManager;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/css/LandingStyle.css" />
+</head>
+<body>
+    <div class="menu">
+        <div class="container flex">
+            <!-- Mobile Button -->
+            <div class="mobile-btn">
+                <ion-icon name="grid"></ion-icon>
+            </div>
+            <div class="logo" >
+                <img src="~/images/logo.jpg" style="width=64px;border-radius:40px"  />
+            </div>
+
+            <ul class="nav">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#why-us">Features</a></li>
+                <li class="nav-item"><a href="#explore">Explore</a></li>
+                <li class="nav-item"><a href="#discount">Register</a></li>
+            </ul>
+            @if(_signInManager.IsSignedIn(User))
+            {
+                 <a asp-controller="Dashboard" asp-action="Dashboard" class="btn">Dashboard</a>
+            }
+            else
+            {              
+            <a asp-controller="Account" asp-action="Login" class="btn">Register</a>
+            }
+        </div>
+    </div>
+    
+        @RenderBody()
+    <footer class="footer">
+        <div class="container flex">
+            <p class="tertiary">
+                &copy; 2023 Cody. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!--   BTN   -->
+
+    <!-- End Footer -->
+    <!-- Ion Icons Js -->
+    <!-- JS -->
+    <script>
+        //Js
+        document.querySelector(".mobile-btn").addEventListener("click", function () {
+            document.querySelector(".menu").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

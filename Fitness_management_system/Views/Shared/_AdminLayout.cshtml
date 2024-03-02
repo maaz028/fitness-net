@@ -1,0 +1,323 @@
+﻿@inject SignInManager<ApplicationUserModel> _signInManager;
+@inject UserManager<ApplicationUserModel> _userManager;
+@inject RoleManager<IdentityRole> _roleManager;
+@{
+    ApplicationUserModel user = new ApplicationUserModel();
+    List<string> userRole = new List<string>();
+    string? userImg = null;
+
+    if (_signInManager.IsSignedIn(User))
+    {
+        user = await _userManager.GetUserAsync(User);
+        if (user != null)
+            userImg = "/images/members/" + user.PhotoPath;
+
+    }
+}
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="~/assets/"
+    data-template="vertical-menu-template-free">
+
+<head>
+
+    @await Html.PartialAsync("./Partials/headLinks.cshtml")
+</head>
+
+<body>
+    <div class="layout-wrapper layout-content-navbar">
+        <div class="layout-container">
+            <!-- Menu -->
+            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+                <div class="app-brand demo" style="margin:20px">
+                    <a asp-controller="landing" asp-action="Home" class="app-brand-link">
+                        <img src="~/images/logo.jpg" style="width:95px;border-radius:40px" />
+
+                    </a>
+
+                    <a href="javascript:void(0);"
+                        class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+                        <i class="bx bx-chevron-left bx-sm align-middle"></i>
+                    </a>
+                </div>
+
+                <div class="menu-inner-shadow"></div>
+
+                <ul class="menu-inner py-1">
+                    <!-- Dashboard -->
+                    <li class="menu-item @ViewBag.DashboardActive">
+                        <a asp-controller="Dashboard" asp-action="Dashboard" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Dashboard</div>
+                        </a>
+                    </li>
+
+                    <!-- Layouts -->
+
+                    @if (_signInManager.IsSignedIn(User) && User.IsInRole("Administration"))
+                    {
+
+                        <li class="menu-header small text-uppercase">
+                            <span class="menu-header-text">Members</span>
+                        </li>
+                        <li class="menu-item @ViewBag.MemberDetailsActive">
+                            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                                <i class="menu-icon tf-icons bx bx-layout"></i>
+                                <div data-i18n="Layouts">Members Details</div>
+                            </a>
+
+                            <ul class="menu-sub">
+                                <li class="menu-item @ViewBag.AvailableMembersActive">
+                                    <a asp-controller="Members" asp-action="AvailableMembers" class="menu-link">
+                                        <div data-i18n="Without menu">Available Members</div>
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                        <li class="menu-header small text-uppercase">
+                            <span class="menu-header-text">Trainers</span>
+                        </li>
+                        <li class="menu-item @ViewBag.TrainerDetailsActive">
+                            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                                <i class="menu-icon tf-icons bx bx-layout"></i>
+                                <div data-i18n="Layouts">Trainers Details</div>
+                            </a>
+
+                            <ul class="menu-sub">
+                                <li class="menu-item @ViewBag.AvailableTrainersActive">
+                                    <a asp-controller="Trainer" asp-action="AvailableTrainers" asp-route-PageNumber="1"
+                                        class="menu-link">
+                                        <div data-i18n="Without menu">Available Trainers</div>
+                                    </a>
+                                </li>
+                                <li class="menu-item @ViewBag.AddTrainerActive">
+                                    <a asp-controller="Trainer" asp-action="AddTrainer" class="menu-link">
+                                        <div data-i18n="Without menu">Add Trainer</div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <li class="menu-header small text-uppercase">
+                            <span class="menu-header-text">Gym Equipments</span>
+                        </li>
+                        <li class="menu-item @ViewBag.EquipmentDetailsActive">
+                            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                                <i class="menu-icon tf-icons bx bx-layout"></i>
+                                <div data-i18n="Layouts">Equipment Details</div>
+                            </a>
+
+                            <ul class="menu-sub">
+                                <li class="menu-item @ViewBag.AvailableEquipmentsActive">
+                                    <a asp-controller="Equipment" asp-action="AvailableEquipments" asp-route-Pagenumber="1"
+                                        class="menu-link">
+                                        <div data-i18n="Without menu">Available Equipments</div>
+                                    </a>
+                                </li>
+                                <li class="menu-item @ViewBag.AddEquipmentActive">
+                                    <a asp-controller="Equipment" asp-action="AddEquipment" class="menu-link">
+                                        <div data-i18n="Without menu">Add Equipment</div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <li class="menu-header small text-uppercase">
+                            <span class="menu-header-text">Account</span>
+                        </li>
+                        <li class="menu-item @ViewBag.ManageRolesActive">
+                            <a asp-controller="Account" asp-action="ManageRoles" class="menu-link">
+                                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                                <div data-i18n="Analytics">Manage Roles</div>
+                            </a>
+                        </li>
+                        <li class="menu-item @ViewBag.SettingsActive">
+                            <a asp-controller="Account" asp-action="Settings" class="menu-link">
+                                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                                <div data-i18n="Analytics">Setting</div>
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+
+                        if (user != null && user.AvailabilityStatus == core.Models.AvailabilityStatusEnum.Active)
+                        {
+                            <li class="menu-header small text-uppercase">
+                                <span class="menu-header-text">Gym Equipments</span>
+                            </li>
+                            <li class="menu-item @ViewBag.EquipmentDetailsActive">
+                                <a href="javascript:void(0);" class="menu-link menu-toggle">
+                                    <i class="menu-icon tf-icons bx bx-layout"></i>
+                                    <div data-i18n="Layouts">Equipment Details</div>
+                                </a>
+
+                                <ul class="menu-sub">
+                                    <li class="menu-item @ViewBag.AvailableEquipmentsActive">
+                                        <a asp-controller="Equipment" asp-action="AvailableEquipments" asp-route-Pagenumber="1"
+                                            class="menu-link">
+                                            <div data-i18n="Without menu">Available Equipments</div>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item @ViewBag.AddEquipmentActive">
+                                        <a asp-controller="Equipment" asp-action="AddEquipment" class="menu-link">
+                                            <div data-i18n="Without menu">Add Equipment</div>
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+
+                        }
+                        <li class="menu-header small text-uppercase">
+                            <span class="menu-header-text">Account</span>
+                        </li>
+                        <li class="menu-item @ViewBag.SettingsActive">
+                            <a asp-controller="Account" asp-action="Settings" class="menu-link">
+                                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                                <div data-i18n="Analytics">Setting</div>
+                            </a>
+                        </li>
+
+                    }
+                </ul>
+            </aside>
+            <div class="layout-page">
+                <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+                    id="layout-navbar">
+                    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+                        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                            <i class="bx bx-menu bx-sm"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+                        <!-- Search -->
+                        @if (_signInManager.IsSignedIn(User) && User.IsInRole("Administration"))
+                        {
+                            <div class="navbar-nav align-items-center">
+                                <div class="nav-item d-flex align-items-center">
+                                    <i class="bx bx-search fs-4 lh-0"></i>
+
+                                    <div class="navbar-dropdown dropdown-user dropdown">
+                                        <input type="text" class="form-control border-0 shadow-none"
+                                            placeholder="Search Member by Name" aria-label="Search..." id="inputMemberVal"
+                                            onkeyup="searchMember(this.value)" />
+                                        <ul id="showMemberLink" class="dropdown-menu dropdown-menu-end start">
+                                            <li id="memberDrop">
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="navbar-dropdown dropdown-user dropdown">
+                                        <input type="text" class="form-control border-0 shadow-none "
+                                            placeholder="Search Trainer by Name" aria-label="Search..."
+                                            onkeyup="searchTrainer(this.value)" />
+                                        <ul class="dropdown-menu dropdown-menu-end start" id="showTrainerLink">
+                                            <li id="trainerDrop">
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        }
+
+                        <!-- /Search -->
+
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <!-- Place this tag where you want the button to render. -->
+
+                            @{
+
+                                foreach (var role in _roleManager.Roles.ToList())
+                                {
+                                    var isUserInRole = await _userManager.IsInRoleAsync(user, role.Name);
+                                    if (isUserInRole)
+                                    {
+                                        userRole.Add(role.Name);
+                                    }
+                                }
+                            }
+                            <!-- User -->
+                            @if (_signInManager.IsSignedIn(User))
+                            {
+                                <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                                    <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);"
+                                        data-bs-toggle="dropdown">
+                                        <div class="avatar avatar-online">
+                                            <img src="@userImg" alt class="w-px-40 h-auto rounded-circle" />
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <div class="flex-shrink-0 me-3">
+                                                        <div class="avatar avatar-online">
+                                                            <img src="@userImg" alt class="w-px-40 h-auto rounded-circle" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-grow-1">
+                                                        <span class="fw-semibold d-block">@User?.Identity?.Name</span>
+                                                        @foreach (var assignRole in userRole)
+                                                        {
+                                                            <small class="text-muted">@assignRole</small>
+
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown-divider"></div>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="Account" asp-action="Settings">
+                                                <i class="bx bx-user me-2"></i>
+                                                <span class="align-middle">My Profile</span>
+                                            </a>
+                                        </li>
+
+
+                                        <li>
+                                            <div class="dropdown-divider"></div>
+                                        </li>
+                                        <li>
+                                            <form asp-action="Logout" asp-controller="Account" method="Post">
+                                                <button class="dropdown-item" type="submit">
+                                                    <i class="bx bx-power-off me-2"></i>
+                                                    <span class="align-middle">Log Out</span>
+                                                </button>
+                                            </form>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </nav>
+
+                @RenderBody()
+            </div>
+        </div>
+
+        <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+
+    @await Html.PartialAsync("./Partials/footerLinks.cshtml")
+    @if (IsSectionDefined("scripts"))
+    {
+        RenderSection("scripts", required: false);
+    }
+    @await Html.PartialAsync("./Partials/scripting.cshtml")
+</body>
+
+</html>

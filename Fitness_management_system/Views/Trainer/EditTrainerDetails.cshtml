@@ -1,0 +1,120 @@
+﻿@model TrainerViewModel
+@{
+    ViewBag.Title = "Admin | Available Trainers";
+    ViewBag.TrainerDetailsActive = "active open";
+    ViewBag.AvailableTrainersActive = "active";
+
+   
+}
+<div class="container-xxl flex-grow-1 container-p-y">
+    <form asp-controller="Trainer" asp-action="EditTrainerDetails" method="POST" enctype="multipart/form-data">
+    <div class="card mb-4">
+        <h5 class="card-header">Trainer Details</h5>
+        <!-- Account -->
+        <div class="card-body">
+            <div class="d-flex align-items-start align-items-sm-center gap-4">
+
+                    @if (!string.IsNullOrEmpty(Model.PhotoPath))
+                    {
+                            <img src="~/images/trainers/@Model.PhotoPath" alt="user-avatar" class="d-block rounded" height="100" width="100" id="uploadedImg">
+                    }
+                    else
+                    {
+                               <div>
+                                <img id="uploadedImg" class="d-block rounded" height="100" width="100" style="background-color:grey">
+                                <span id="noImgText">No Img Selected</span>
+                                   </div>
+
+                    }
+                <div class="button-wrapper">
+                    <label for="upload" class="btn btn-primary me-2 mb-4" tabindex="0">
+                        <span class="d-none d-sm-block">Upload new photo</span>
+                        <i class="bx bx-upload d-block d-sm-none"></i>
+                        <input asp-for="Photo" id="upload" class="account-file-input" onchange="uploadImage(event)" hidden="" accept="image/png, image/jpeg">
+                    </label>
+                  
+
+                    <p class="text-muted mb-0">Allowed JPG, GIF or PNG. Max size of 2MB</p>
+                </div>
+            </div>
+        </div>
+        <hr class="my-0">
+        <div class="card-body">
+
+            <div asp-validation-summary="All" class="text-red"></div>
+                <div class="row">
+                    <input asp-for="ID" hidden/>
+                    <input asp-for="PhotoPath" hidden/>
+                    <div class="mb-3 col-md-6">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input class="form-control" asp-for="Name" placeholder="Enter your name" autofocus="">
+                    </div>   
+                    <div class="mb-3 col-md-6">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input class="form-control" asp-for="Email" placeholder="Enter your email" autofocus="">
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label asp-for="Gender" class="form-label"></label>
+                        <select class="form-control" asp-for="Gender" asp-items="@Html.GetEnumSelectList<GenderEnm>()"  autofocus=""></select>
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label asp-for="Age" class="form-label"></label>
+                        <input class="form-control" asp-for="Age"  autofocus="">
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label asp-for="AvailabilityStatus" class="form-label"></label>
+                        <input class="form-control" asp-for="AvailabilityStatus" disabled autofocus="">
+                        <input hidden asp-for="AvailabilityStatus" />
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label asp-for="CreatedDate" class="form-label"></label>
+                        <input class="form-control" asp-for="CreatedDate" disabled autofocus="">
+                        <input hidden asp-for="CreatedDate"/>
+                    </div> 
+                    <div class="mb-3 col-md-6">
+                        <label asp-for="JoiningDate" class="form-label"></label>
+                        <input class="form-control" asp-for="JoiningDate" disabled autofocus="">
+                        <input hidden asp-for="JoiningDate">
+                    </div>
+              
+
+
+                </div>
+                <div class="mt-2">
+                    <button type="submit" class="btn btn-primary me-2">Save changes</button>
+                </div>
+
+        </div>
+        <!-- /Account -->
+    </div>
+</form>
+
+@if (ViewBag.IsTrainerDetailsUpdated)
+{
+        <div id="toaster" class="bs-toast toast toast-placement-ex m-2 fade bg-success top-0 end-0 show" role="alert" aria-live="assertive" data-bs-delay="2000" aria-atomic="true">
+            <div class="toast-header">;
+                <i class="bx bx-bell me-2"></i>
+                <div class="me-auto fw-semibold">Alert</div>
+                <small>Now</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Trainer Account details updated Successfully !
+            </div>
+        </div>
+}
+@section scripts{
+        <script>
+            function uploadImage(event)
+            {
+                var imgLocation = document.getElementById("uploadedImg")
+                imgLocation.src = URL.createObjectURL(event.target.files[0]);
+                document.getElementById("noImgText").style.display = "none"
+            }
+             var toast = document.getElementById("toaster")
+            setTimeout(()=>
+            {
+                toast.classList.replace("show","hide")
+            },3000)
+        </script>
+}
